@@ -45,3 +45,24 @@ header nav ul li {
     background-size: cover;
     background-position: center;
 }
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 25px;
+    width: 50%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.bio h3 {
+    font-size: 50px;
+    margin-bottom: -150px;
+}
+
+.bio p {
+    margin-top: -150px;
+}
