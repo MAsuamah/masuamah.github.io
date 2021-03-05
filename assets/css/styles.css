@@ -19,6 +19,12 @@ header {
     top: 0;
   }
 
+  header h1 {
+      color: #a1c6e2;
+      font-family: 'Philosopher', sans-serif;
+      font-size: 50px;
+  }
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -29,6 +35,8 @@ header nav ul {
 
 header nav ul li {
   margin: 25px;
+  border-bottom-style: solid;
+  border-width: thin;
 }
 
 .about-me {
@@ -38,12 +46,18 @@ header nav ul li {
 }
 
 .portrait {
-    background-image: url(../images/MichelleAsuamah-LVIMAGERY-1.JPG);
-    height: 700px;
-    width: 450px;
+    background-image: url(../images/hero-photo.JPG);
+    height: 500px;
+    width: 500px;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
 }
 
 .bio {
@@ -61,8 +75,7 @@ header nav ul li {
 .bio h3 {
     font-size: 50px;
     margin-bottom: -150px;
+    border-bottom: solid;
+    color: white;
 }
 
-.bio p {
-    margin-top: -150px;
-}
