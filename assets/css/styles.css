@@ -112,16 +112,21 @@ header nav ul li a {
     border-color: white;
 }
 
-.thumbs h4{
+.rb {
     background-color: white;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bolder;
     color: #a1c6e2;
     padding: 15px;
-
-
+    width: 400px;
+    height: 60px;
+    transition: 1s;
 }
 
+.rb:hover {
+    height: 400px;
+    opacity: 1;
+}
 
 #run-buddy {
     background-image: url(../images/rb-thumb.png);
