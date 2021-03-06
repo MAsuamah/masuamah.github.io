@@ -110,6 +110,7 @@ header nav ul li a {
     border-style: solid;
     border-width: thick;
     border-color: white;
+    text-decoration: none;
 }
 
 .rb {
@@ -125,7 +126,6 @@ header nav ul li a {
 
 .rb:hover {
     height: 400px;
-    opacity: 1;
 }
 
 #run-buddy {
