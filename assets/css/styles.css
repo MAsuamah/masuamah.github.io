@@ -14,12 +14,12 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    top: 0;
   }
 
 header h1 {
     font-family: 'Philosopher', sans-serif;
     font-size: 50px;
+    color: white;
   }
 
 header nav ul {
@@ -27,18 +27,19 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 900;
   }
 
 header nav ul li {
   margin: 25px;
   border-bottom-style: solid;
   border-width: thin;
-  font-size: 25px;
+  color: white;
 }
 
 .hero {
-  background-image: url(../images/xps-pduutGbL2-M-unsplash.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/xps-pduutGbL2-M-unsplash.jpg);
   height: 800px;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,18 +50,19 @@ header nav ul li {
 .hero h2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    font-size: 50px;
+    padding: 250px;
+    color: white;
 }
-
 
 .about-me {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    justify-content: center;
 }
 
-.portrait {
-    background-image: url(../images/hero-photo.JPG);
+.about-me img {
     height: 500px;
     width: 500px;
     margin-bottom: 25px;
@@ -79,9 +81,8 @@ header nav ul li {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 25px 25px 25px 50px;
     text-align: justify;
-    padding: 40px;
-    margin: 40px;
     width: 50%;
     font-size: 18px;
     line-height: 2;
@@ -89,7 +90,13 @@ header nav ul li {
 
 .bio h3 {
     font-size: 50px;
+    text-align: center;
     border-bottom: solid;
     color: white;
+    margin-bottom: -150px;
 }
+
+
+
+
 
