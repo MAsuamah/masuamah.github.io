@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   
+  <!--Header, Navigation and Hero Image-->
   <body>
     <div class="hero">    
-      <header>     
-        <h1 class="main-h">Michelle Asuamah</h1> 
+      <header class="links">     
+        <h1 class="titles">Michelle Asuamah</h1> 
         <nav>
           <ul>
             <li>
@@ -31,26 +32,28 @@
           </ul>
         </nav>     
       </header>    
-      <h2 class="main-h">Welcome To Michelle's Portfolio</h2>
+      <h2 class="titles">Welcome To Michelle's Portfolio</h2>
     </div>
-
-    <section class ="about-me" id="about-me">
+    
+    <!--About Me Section-->
+    <section id="about-me">
       <img src="assets/images/portrait.JPG" alt="Photo of a smiling Michelle Asuamah" />
-      <div class="bio">
-        <h2 class="main-h"> About Me </h2>
+      <div id="bio">
+        <h2 class="titles"> About Me </h2>
           <p>
-            Michelle Asuamah is an aspiring web developer based in Toronto. She is currently enrolled in 
-            boot camp at the University of Toronto. She first got into coding while searching for a hobby 
+            Hi! I'm Michelle Asuamah an aspiring web developer based in Toronto. I'm currently enrolled in 
+            boot camp at the University of Toronto. I first got into coding while searching for a hobby 
             during the 2020 Covid-19 pandemic. What started off as building a simple word press blog for fun, 
-            turned into a full-blown interest in coding, web development, and design. She soon started self 
-            teaching with available online resources and eventually made the commitment to attend coding boot camp 
-            to really hone her skills, and transition into a career in tech.
+            turned into a full-blown interest in coding, web development, and design. I soon started self-teaching 
+            with available online resources. Eventually I made the commitment to attend coding boot camp 
+            to really hone my skills, and transition into a career in tech.
           </p>
       </div>
     </section>
-      
+    
+    <!--Project/Portfolio Links and Images-->
     <section class="projects" id="projects">
-      <h2 class="main-h">Projects</h2>
+      <h2 class="titles">Projects</h2>
       <div class="thumbnail">
         <a href="https://masuamah.github.io/run-buddy/" target="_blank" id="run-buddy" class="thumbs">
           <div class="thumb-text">
@@ -69,36 +72,42 @@
         <a href="https://masuamah.github.io/watch-that-box/" target="_blank" id="box" class="thumbs">
           <div class="thumb-text">
             <h3>Watch That Box</h3>
-            <p>Demonstrating use of the getElementById() and addEventListener() method</p>
+            <p>Demonstrates use of the getElementById and addEventListener method</p>
           </div>
         </a>
-        <div class="blank">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum explicabo saepe, deserunt necessitatibus aliquid veritatis nobis suscipit est eaque nulla voluptas! Impedit perspiciatis veritatis ratione animi incidunt enim ipsam fuga?</p>
-        </div>
       </div>
     </section>
-
- 
+    
+    <!--Blank images used to hide hover text glitch at the bottom of portfolio section-->
+    <div class="blank">
+      <img src="assets/images/Untitled design.png" alt="" />
+      <img src="assets/images/Untitled design.png" alt=""  />
+    </div>
+    
+    <!--Contact Links-->
     <section class="contact" id="contact">
-      <h2 class="main-h">Contact</h2>
-        <div class="contact-links">
+      <div class="links">
+      <h2 class="titles">Contact</h2>
+        <div>
           <ul>
             <li>
-              <a href="mailto:michey.asmah21@gmail.com">michey.asmah21@gmail.com</a>
+              <a href="mailto:michey.asmah21@gmail.com" target="_blank">michey.asmah21@gmail.com</a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/michelle-a-040639206/">Linkedin</a>
+              <a href="https://www.linkedin.com/in/michelle-a-040639206/" target="_blank">Linkedin</a>
             </li>
             <li>
-              <a href="https://github.com/MAsuamah">GitHub</a>
+              <a href="https://github.com/MAsuamah" target="_blank">GitHub</a>
             </li>
           </ul>
         </div>
+      </div>
     </section>
-
+    
+    <!--Footer Section-->
     <footer>
       <h4>Designed and Built by Michelle Asuamah</h4>
     </footer>
-    
+
   </body>
 </html>
