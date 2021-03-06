@@ -4,7 +4,6 @@
     box-sizing: border-box;
   }
 
-
 body {
     background-color: #a1c6e2;
     font-family: 'Roboto', sans-serif;
@@ -12,17 +11,15 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: white;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     top: 0;
   }
 
-  header h1 {
-      color: #a1c6e2;
-      font-family: 'Philosopher', sans-serif;
-      font-size: 50px;
+header h1 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 50px;
   }
 
 header nav ul {
@@ -30,14 +27,31 @@ header nav ul {
     flex-wrap: wrap;
     justify-content: space-between;
     list-style: none;
-    font-size: 20px;
+    font-size: 30px;
   }
 
 header nav ul li {
   margin: 25px;
   border-bottom-style: solid;
   border-width: thin;
+  font-size: 25px;
 }
+
+.hero {
+  background-image: url(../images/xps-pduutGbL2-M-unsplash.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .about-me {
     display: flex;
@@ -66,7 +80,8 @@ header nav ul li {
     align-items: center;
     justify-content: center;
     text-align: justify;
-    padding: 25px;
+    padding: 40px;
+    margin: 40px;
     width: 50%;
     font-size: 18px;
     line-height: 2;
@@ -74,7 +89,6 @@ header nav ul li {
 
 .bio h3 {
     font-size: 50px;
-    margin-bottom: -150px;
     border-bottom: solid;
     color: white;
 }
