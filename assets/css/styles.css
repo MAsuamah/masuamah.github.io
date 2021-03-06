@@ -31,12 +31,15 @@ header nav ul {
     font-weight: 900;
   }
 
-header nav ul li {
+header nav ul li a {
   margin: 25px;
   border-bottom-style: solid;
   border-width: thin;
+  text-decoration: none;
   color: white;
 }
+
+
 
 .hero {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/xps-pduutGbL2-M-unsplash.jpg);
