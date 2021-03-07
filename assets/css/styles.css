@@ -211,7 +211,6 @@ header h1 {
 }
 /*GLITCH FIX STYLING ENDS*/
 
-
 /*FOOTER STYLING STARTS*/
 
 footer {
@@ -268,7 +267,7 @@ footer {
     }
     
     #about-me img {
-        height: auto;
+        height: 200px;
         width: 60%;
     }
 
