@@ -1,7 +1,7 @@
 # My Portfolio
 My personal portfolio showcasing web applications I built from scratch.
 
-## Feautures
+## Features
 * A responsive layout suited for most screen sizes built by advanced CSS.
 * Functional navigation links at the top of the screen that will direct you to the corresponding section when clicked on.
 * A bio section about me.
