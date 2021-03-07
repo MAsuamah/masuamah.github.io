@@ -222,7 +222,7 @@ footer {
 
 
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
+/* MEDIA QUERY FOR LAPTOPS/SMALLER SCREENS */
 
 @media screen and (max-width:1083px) {
     #hero h2 {
@@ -256,6 +256,15 @@ footer {
     }
 
 }
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+  #bio {
+      font-size: 26px;
+  }
+
+
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
