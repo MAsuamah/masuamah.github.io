@@ -1,5 +1,5 @@
 # My Portfolio
-My personal portfolio showingcasing web applications I built from scratch.
+My personal portfolio showcasing web applications I built from scratch.
 
 ## Feautures
 * A responsive layout suited for most screen sizes built by advanced CSS.
