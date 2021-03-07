@@ -237,6 +237,10 @@ footer {
         color: gray;
     }
 
+    #bio {
+        font-size: 26px;
+    }  
+
     .thumb-text {
         width: 50vw;
     }
@@ -254,17 +258,7 @@ footer {
     #contact {
         height: 200px;
     }
-
 }
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
-@media screen and (max-width: 768px) {
-  #bio {
-      font-size: 26px;
-  }
-
-
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
@@ -278,6 +272,10 @@ footer {
     #about-me img {
         height: 225px;
         width: 60%;
+    }
+
+    #bio {
+        font-size: 18px;
     }
 
     .thumb-text {
