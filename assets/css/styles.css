@@ -4,20 +4,21 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    
   }
 
 body {
-    background-color: #a1c6e2;
-    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient( to bottom right,#a1c6e2, white);
+    
  }
 
  .titles {
-    font-size: 50px;
-    color: white;
+    font-size: 50px; 
 }
+
 /*UTLITITIES STYLING ENDS*/
 
-/*HEADER AND CONTACT STYLING STARTS */
+/*HEADER STYLING STARTS */
 
 .links {
     padding: 20px 35px;
@@ -35,13 +36,13 @@ body {
 }
 
 .links ul li a {
+    font-family: 'Staatliches', cursive;
     margin: 25px;
-    border-bottom-style: solid;
     border-width: thin;
     text-decoration: none;
     font-size: 25px;
     font-weight: 900;
-    color: white;
+    color: black;
     transition: 1s;
 }
 
@@ -50,258 +51,246 @@ body {
 }
 
 header h1 {
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Staatliches', cursive;
+    color: black;
   }
 
-#contact {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/xps-TxXuh_hAFd8-unsplash.jpg);
-    height: 100px;
-    border-radius: 15px;
-}
-/*HEADER AND CONTACT STYLING ENDS*/
+/*HEADER STYLING ENDS*/
 
 /*HERO STYLING STARTS*/
 
-#hero {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/xps-pduutGbL2-M-unsplash.jpg);
-  height: 800px;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+#hero h2 {
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    padding: 100px;
+    color: black;
 }
 
-#hero h2 {
-    display: flex;
-    justify-content: center;
-    padding: 250px;
+#hero {
+  background-image: linear-gradient( to top right,  chartreuse, aqua);
+  height: 400px;
+  
 }
+
 /*HERO STYLING ENDS*/
+
+/*CONTENT BLOCK STYLING STARTS*/
+
+.content-block {
+    display: flex;
+    padding: 30px;
+}
+
+.side {
+    font-family: 'Staatliches', cursive;
+    color: black;
+    font-size: 40px;
+    margin-right: 35px;
+}
+
+.bar {
+    border-right: 5px solid black;
+    height: 400px;
+}
+
+/*CONTENT BLOCK STYLING ENDS*/
+
 
 /*ABOUT ME SECTION STYLING STARTS*/
 
-#about-me {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: center;
-    background-image: linear-gradient(180deg, #a1c6e2, white);
+#side-a {
+    width:100%;  
+}
+
+
+#bar-b {
+    padding-right: 12px;
 }
 
 #about-me img {
-    height: 500px;
-    width: 500px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    border-radius: 20px;
-    border-style: solid;
-    border-width: thick;
-    border-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 20px; 
 }
 
 #bio {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding: 25px 25px 25px 50px;
-    text-align: justify;
-    width: 50vw;
-    font-size: 18px;
-    font-weight: bolder;
-    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    background-image: linear-gradient( to bottom left, lightsteelblue, steelblue);
+    box-shadow: rgba(107, 77, 77, 0.35) 0px 5px 15px;
+    padding: 30px;
 }
 
-#bio h2 {
-    text-align: center;
-    border-bottom: solid;
-}
 /*ABOUT ME SECTION STYLING ENDS*/
 
-/*PROJECT STYLING STARTS*/
-
-#projects h2 {
-   margin-top: 100px; 
-   margin-bottom: 50px;
-   text-align: center;
-   padding-bottom: 10px;
-   text-decoration: underline;
-   text-decoration-color: white;
-}
+/*PROJECT SECTION STYLING STARTS*/
 
 #thumbnail {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
+    background-image: linear-gradient( to bottom left, mediumvioletred, yellow);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;  
 }
 
-.thumbs {
+/*PROJECT SECTION STYLING ENDS*/
+
+/*CONTACT SECTION STYLING STARTS*/
+
+#contact-pics a {
+    color: white
+}
+
+#contact {
+    background-image: linear-gradient( to bottom left,  chartreuse, aqua);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px; 
+}
+
+#contact-pics {
+    margin: 10px;
     display: flex;
-    align-items: flex-end;
-    border-radius: 20px;
+    border: white;
+}
+
+.containerG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/richy-great-MAYEkmn7G6E-unsplash.jpg");
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-style: solid;
     border-width: thick;
-    border-color: white;
-    text-decoration: none;   
+    border-radius: 10px;
 }
 
-.thumb-text {
-    background-color: white;
-    font-size: 30px;
-    font-weight: bolder;
-    color: #a1c6e2;
-    padding: 15px;
-    width: 25vw;
-    height: 60px;
-    transition: 1s;
-}
-
-.thumb-text h3 {
-    text-decoration: underline;
-}
-
-.thumb-text:hover {
-    height: 200px;
-}
-
-#run-buddy {
-    background-image: url(../images/rb-thumb.png);
-    width: 90vw;
-    height: 650px;
+.containerE {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stephen-phillips-hostreviews-co-uk-3Mhgvrk4tjM-unsplash.jpg");
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
     background-size: cover;
-    transition: 1s;
-}
-
-#run-buddy:hover {
-   height: 675px;
-   width: 92vw;
-}
-
-#robot {
-    background-image: url(../images/rock-n-roll-monkey-FTfjMijq-Ws-unsplash.jpg);
-    background-size: cover;
-    width: 45vw;
-    height: 500px;
-    transition: 1s;
-}
-
-#robot:hover {
-    width: 47vw;
-    height: 525px;
-}
-
-#box {
-    background-image: url(../images/rizki-ramadhan-1ZdE_X5Hz3c-unsplash.jpg);
-    background-size: cover;
-    width: 45vw;
-    height: 500px;
-    transition: 1s;
-}
-
-#box:hover {
-    width: 47vw;
-    height: 525px;
-}
-/*PROJECT STYLING ENDS*/
-
-/*GLITCH FIX STYLING STARTS*/
-
-#blank {
+    width: 250px;
+    height: 250px;
     display: flex;
-    height: 325px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
 }
-/*GLITCH FIX STYLING ENDS*/
 
-/*FOOTER STYLING STARTS*/
+.containerL {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/inlytics-linkedin-analytics-tool-2SE1zwzeLOs-unsplash.jpg");
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+.containerG {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/richy-great-MAYEkmn7G6E-unsplash.jpg");
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+.containerR {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/markus-winkler-7iSEHWsxPLw-unsplash.jpg");
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 10px;
+}
+
+
+.img-text {
+    font-size: 40px;
+    font-family: 'Staatliches', cursive;
+    background-color: black;
+    border-radius: 10px;
+    border: white;
+    border-style: solid;
+    border-width: thick;
+    padding: 10px;
+}
+
+.img-text i {
+    margin: 10px;
+}
+
+#contact h1 {
+    padding-right: 15px;
+}
+
+.opaque:hover {
+    opacity: 0.5;
+}
+
+.opaque {
+    cursor: pointer;
+}
+
+
+
+/*CONTACT SECTION STYLING ENDS*/
+
+/*FOOTER SECTION STYLING STARTS*/
 
 footer {
-    background-image: linear-gradient(to right, #a1c6e2, white);
-    font-size: 20px;
-    text-align: right;
+    color:black;
 }
-/*FOOTER STYLING ENDS*/
 
-
+/*FOOTER SECTION STYLING ends*/
 
 /* MEDIA QUERY FOR LAPTOPS/SMALLER SCREENS */
 
-@media screen and (max-width:1083px) {
-    #hero h2 {
-    text-align: center;
+@media screen and (max-width:1430px) {
+    .content-block {
+        flex-wrap: wrap;
     }
 
-    #bio {
-        width: 100%;
-    }
-
-    #bio h2 {
-        color: gray;
-    }
-
-    #bio {
-        font-size: 26px;
+    .bar {
+        height: 100px;
     }  
-
-    .thumb-text {
-        width: 50vw;
-    }
-
-    #robot {
-        width: 80%;
-        margin-top: 15px;
-    }
-
-    #box {
-        width: 80%;
-        margin-top: 15px;
-    }
-
-    #contact {
-        height: 200px;
-    }
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-
-@media screen and (max-width: 540px) {
-    #hero h2 {
-        font-size: 25px;
-        padding: 50px;
-        text-align: center;
-    }
     
-    #about-me img {
-        height: 225px;
-        width: 60%;
-    }
-
-    #bio {
-        font-size: 18px;
-    }
-
-    .thumb-text {
-        width: 100%;
-        height: 47px;
-    }
-
-    #run-buddy {
-        height: 300px;
-    }
-
-    #robot {
-        height: 200px;
-    }
-
-    #box {
-        height: 200px;
-    }
-
-    .thumb-text {
-        font-size: 14px;
-        color: black;
-    }
-
-    #contact a {
-        font-size: 16px;
-    }
 }
 
+@media screen and (max-width:1285px) {
+    #contact-pics {
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width:698px) {
+    #bio {
+        flex-wrap: wrap;
+    }
+}

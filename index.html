@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michelle Asuamah</title>
     <link rel="shortcut icon" type="image/png" href="assets/images/portfolio-logo.png">
+    <script src="https://kit.fontawesome.com/314b510ada.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Notable&family=Roboto:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Notable&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles2.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -37,78 +41,152 @@
     </div>
     
     <!--About Me Section-->
-    <section id="about-me">
-      <img src="assets/images/portrait.JPG" alt="Photo of a smiling Michelle Asuamah" />
-      <div id="bio">
-        <h2 class="titles"> About Me </h2>
+    <section id = "about-me">
+      <div class="content-block">
+        <div class="side" id="side-a">
+          <div class="bar">
+            <h1>About Me</h1>
+          </div>
+        </div>
+
+        <div id="bio">
+          <img src="assets/images/portrait.JPG" alt="Photo of a smiling Michelle Asuamah" />
           <p>
-            Hi! I'm Michelle Asuamah an aspiring web developer based in Toronto. I'm currently enrolled in 
-            boot camp at the University of Toronto. I first got into coding while searching for a hobby 
-            during the 2020 Covid-19 pandemic. What started off as building a simple word press blog for fun, 
+            Hi! I'm Michelle Asuamah a web developer based in Toronto. I first got into coding while searching for a hobby 
+            during the 2020 Covid-19 pandemic. What started off as building a simple WordPress blog for fun, 
             turned into a full-blown interest in coding, web development, and design. I soon started self-teaching 
             with available online resources. Eventually I made the commitment to attend coding boot camp 
-            to really hone my skills, and transition into a career in tech.
+            to really hone my skills, and transition into a career in tech. I am a highly self-motivated individual who is always eager to build, learn, and create. My technological skills include Javascript, HTML, and CSS.
           </p>
+        </div>
+
       </div>
     </section>
-    
+
+
     <!--Project/Portfolio Links and Images-->
     <section id="projects">
-      <h2 class="titles">Projects</h2>
-      <div id="thumbnail">
-        <a href="https://masuamah.github.io/run-buddy/" target="_blank" id="run-buddy" class="thumbs">
-          <div class="thumb-text">
-            <h3>Run Buddy</h3>
-            <p>Demonstrating advanced CSS and responsiveness</p>
-          </div>
-        </a>
+      <div class="content-block">
+        <div class="side" id="side-b">
+          <div class="bar" id="bar-b">
+            <h1>Projects</h1>
+            </div>
+          </div> 
 
-        <a href="https://masuamah.github.io/robot-gladiators/" target="_blank" id="robot" class="thumbs">
-          <div class="thumb-text">
-            <h3>Robot Gladiator</h3>
-            <p>Demonstrating use of functions, loops, if...else statements, objects, and more</p>
-          </div>   
-        </a>
+          <div id="thumbnail">
 
-        <a href="https://masuamah.github.io/watch-that-box/" target="_blank" id="box" class="thumbs">
-          <div class="thumb-text">
-            <h3>Watch That Box</h3>
-            <p>Demonstrates use of the getElementById and addEventListener methods</p>
-          </div>
-        </a>
-      </div>
-    </section>
-    
-    <!--Blank images used to hide hover text glitch at the bottom of portfolio section-->
-    <div id="blank">
-      <img src="assets/images/Untitled design.png" alt="" />
-      <img src="assets/images/Untitled design.png" alt="" />
-    </div>
-    
+            <div class="grid">
+              <figure class="effect-dexter">
+                <img src="assets/images/elena-mozhvilo-Iu8lD0411sc-unsplash.jpg" alt="photo of a colourful bullet journal"/>
+                <figcaption>
+                  <h2>Taskmaster <span>Pro</span></h2>
+                  <p>Stay organized and manage your time with the Taskmaster Pro. This project demonstrates my knowledge of Bootstrap and jQuery.</p>
+                  <a href="https://masuamah.github.io/taskmaster-pro/" target="_blank">View more</a>
+                </figcaption>     
+              </figure>
+              <figure class="effect-dexter">
+                <img src="assets/images/Quiz.png" alt="img12"/>
+                <figcaption>
+                  <h2>Coding <span>Quiz</span></h2>
+                  <p>Test your coding knowledge with this timed multiple choice coding quiz! This project demonstrates my knowledge of web APIs, javascript, DOM manipulation, and timers.</p>
+                  <a href="https://masuamah.github.io/coding-quiz/" target="_blank">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+
+
+            <div class="grid">
+              <figure class="effect-dexter">
+                <img src="assets/images/Password.png" alt="img19"/>
+                <figcaption>
+                  <h2>Password <span>Generator</span></h2>
+                  <p>This secure password generator has the ability to provide strong passwords that meet the criteria selected by the user.
+                     Made with javascript.
+                  </p>
+                  <a href="https://masuamah.github.io/password-generator/" target="_blank">View more</a>
+                </figcaption>     
+              </figure>
+              <figure class="effect-dexter">
+                <img src="assets/images/Runner 2.png" alt="img12"/>
+                <figcaption>
+                  <h2>Run <span>Buddy</span></h2>
+                  <p>The run buddy project demonstrates the use of advanced CSS to build a website that offers fitness training services.
+                  </p>
+                  <a href="https://masuamah.github.io/run-buddy/" target="_blank">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+
+            <div class="grid">
+              <figure class="effect-dexter">
+                <img src="assets/images/estee-janssens-HAzwnsI9oEQ-unsplash.jpg" alt="img19"/>
+                <figcaption>
+                  <h2>Task<span>inator</span></h2>
+                  <p>A To-Do-List web application that demonstrates my knowledge of Web APIs, javascript, and DOM manipulation.</p>
+                  <a href="https://masuamah.github.io/taskinator/" target="_blank">View more</a>
+                </figcaption>     
+              </figure>
+              <figure class="effect-dexter">
+                <img src="assets/images/rock-n-roll-monkey-FTfjMijq-Ws-unsplash.jpg" alt="img12"/>
+                <figcaption>
+                  <h2>Robot<span>Gladiators</span></h2>
+                  <p>This project is an MVP of a robot gladiators game. Demonstrates my knowledge of javaScript.</p>
+                  <a href="https://masuamah.github.io/robot-gladiators/">View more</a>
+                </figcaption>     
+              </figure>
+            </div>
+
+        </div>
+      </section>
+
     <!--Contact Links-->
     <section id="contact">
-      <div class="links">
-        <h2 class="titles">Contact</h2>
-        <div>
-          <ul>
-            <li>
-              <a href="mailto:michey.asmah21@gmail.com" target="_blank">michey.asmah21@gmail.com</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/michelle-a-040639206/" target="_blank">Linkedin</a>
-            </li>
-            <li>
-              <a href="https://github.com/MAsuamah" target="_blank">GitHub</a>
-            </li>
-          </ul>
+      <div class="content-block">
+        <div class="side" id="side-c">
+          <div class="bar" id="bar-c">
+            <h1>Contact</h1>
+          </div>
         </div>
+
+        <div id="contact-pics">
+
+        <a href="mailto:michey.asmah21@gmail.com">
+          <div class="containerE opaque">
+            <div class="img-text"><i class="fas fa-at"></i></i>Email</div>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/michelle-a-040639206/" target="_blank">
+          <div class="containerL opaque" >
+            <div class="img-text"><i class="fab fa-linkedin"></i>Linkedin</div>
+          </div>
+        </a>
+
+        <a href="https://github.com/MAsuamah/" target="_blank">
+          <div class="containerG opaque">
+            <div class="img-text"><i class="fab fa-github"></i>GitHub</div>
+          </div>
+        </a>
+
+        <a href="assets/images/Resume-M.Asuamah .pdf" download>
+          <div class="containerR opaque">
+            <div class="img-text"><i class="far fa-file"></i></i>Resume</div>
+          </div>
+        </a>
+        </div>
+      </div>
+
+      <!--Footer Section-->
+      <footer>
+        <h4> &copy Designed and Built by Michelle Asuamah</h4>
+      </footer>
+    </section>
+
+
       </div>
     </section>
     
-    <!--Footer Section-->
-    <footer>
-      <h4>Designed and Built by Michelle Asuamah</h4>
-    </footer>
+
 
   </body>
 </html>
