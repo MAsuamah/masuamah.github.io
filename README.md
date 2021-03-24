@@ -9,8 +9,7 @@ My personal portfolio showcasing web applications I built from scratch.
 * My contact info and links to my GitHub and Linkedin where you can find my resume and more of my work.
 
 
-![masuamah github io_](https://user-images.githubusercontent.com/77217156/110228797-fc3c3180-7ed1-11eb-84cb-fd2eb4b79b94.png)
-![Untitled design](https://user-images.githubusercontent.com/77217156/110228758-98b20400-7ed1-11eb-9274-b9c6712d3ae9.gif)
+![screencapture-file-Users-michelle-Desktop-projects-portfolio-index-html-2021-03-23-22_39_15](https://user-images.githubusercontent.com/77217156/112246753-82be7600-8c29-11eb-99c3-4c6ad1f01e0e.png)
 
 
 ## Built with 
