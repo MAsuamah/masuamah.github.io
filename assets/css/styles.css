@@ -8,8 +8,7 @@
   }
 
 body {
-    background-image: linear-gradient( to bottom right,#a1c6e2, white);
-    
+    background-image: linear-gradient( to bottom right,#a1c6e2, white); 
  }
 
  .titles {
@@ -133,6 +132,7 @@ header h1 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;  
 }
+
 
 /*PROJECT SECTION STYLING ENDS*/
 
