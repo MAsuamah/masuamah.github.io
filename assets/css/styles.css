@@ -9,7 +9,7 @@
   }
 
 body {
-    background-image: linear-gradient( to bottom right,#a1c6e2, white); 
+    background-color: rgb(255, 255, 255); 
  }
 
  .titles {
