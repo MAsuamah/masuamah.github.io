@@ -335,4 +335,16 @@ footer {
     #bio {
         flex-wrap: wrap;
     }
+
+    figcaption h2 {
+        font-size: 20px;
+    }
+
+    .centered {
+        font-size: 20px;
+    }
+
+    #bio img {
+        height: 20%;
+    }
 }
