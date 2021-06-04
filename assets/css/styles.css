@@ -337,14 +337,24 @@ footer {
     }
 
     figcaption h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .centered {
         font-size: 20px;
+        height: 100px;
+    }
+
+    .centered p {
+        display: none;
+    }
+
+    .feature {
+        height: 200px;
     }
 
     #bio img {
         height: 200px;
     }
+
 }
