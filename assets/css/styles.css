@@ -345,11 +345,6 @@ footer {
     }
 
     #bio img {
-        height: 10%;
-        margin-top: -50px;
-    }
-
-    #bio p {
-        margin-top: -50px;
+        height: 200px;
     }
 }
