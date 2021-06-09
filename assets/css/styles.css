@@ -140,7 +140,7 @@ header h1 {
 /*PROJECT SECTION STYLING STARTS*/
 
 #thumbnail {
-    background-image: linear-gradient( to bottom left, mediumvioletred, yellow);
+    background-image: linear-gradient( to bottom right, aqua, chartreuse);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;  
 }
@@ -349,7 +349,7 @@ footer {
 
 @media screen and (max-width:698px) {
     #bio {
-        flex-wrap: wrap;
+        margin-right: 5px;
     }
 
     figcaption h2 {
@@ -370,7 +370,6 @@ footer {
     }
 
     #bio img {
-        /* height: 200px; */
         width: 50%;
     }
 
