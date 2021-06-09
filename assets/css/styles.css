@@ -91,6 +91,8 @@ header h1 {
 .bar {
     border-right: 5px solid black;
     height: 400px;
+
+    
 }
 
 /*CONTENT BLOCK STYLING ENDS*/
@@ -99,24 +101,38 @@ header h1 {
 /*ABOUT ME SECTION STYLING STARTS*/
 
 #side-a {
-    width:100%;  
+    width:180%; 
 }
+
+#bar-a {
+    margin-left: 20px;
+}
+
 
 #about-me img {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-right: 20px; 
+    width: 30%;
+    float: left;
 }
 
 #bio {
-    display: flex;
+/*     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     background-image: linear-gradient( to bottom left, lightsteelblue, steelblue);
     box-shadow: rgba(107, 77, 77, 0.35) 0px 5px 15px;
     padding: 30px;
+    margin-right: 70px;
+    
+}
+
+#bio p {
+    text-align: left;
+    overflow-x:visible;
 }
 
 /*ABOUT ME SECTION STYLING ENDS*/
@@ -354,7 +370,8 @@ footer {
     }
 
     #bio img {
-        height: 200px;
+        /* height: 200px; */
+        width: 50%;
     }
 
 }
