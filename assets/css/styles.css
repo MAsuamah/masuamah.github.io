@@ -140,7 +140,7 @@ background-image: linear-gradient( to bottom left, mediumvioletred, yellow);
 /*PROJECT SECTION STYLING STARTS*/
 
 #thumbnail {
-    background-image: linear-gradient( to bottom right, lightsteelblue, steelblue);
+    background-image: linear-gradient( to bottom, lightsteelblue, steelblue);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 30px;  
 }
