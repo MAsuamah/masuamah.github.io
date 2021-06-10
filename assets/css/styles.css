@@ -67,7 +67,7 @@ header h1 {
 }
 
 #hero {
-  background-image: linear-gradient( to top right,  chartreuse, aqua);
+background-image: linear-gradient( to bottom left, mediumvioletred, yellow);
   height: 400px;
   
 }
